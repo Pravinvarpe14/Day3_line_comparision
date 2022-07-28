@@ -47,14 +47,19 @@ public class line_comparision {
 				 * using if else statement to verifying the condition
 				 */
 				
-				 if(length1 == length2)
-			        {
-			            System.out.println("lines are equal");
-			        }
-			        else
-			            System.out.println("lines are not equal");
-				
+				if (length1 > length2) {
+					
+					System.out.println("Line1 is grather than Line2...");
+					
+				} else if ( length2 >length1){
+					
+					System.out.println("Line2 is grater than Line1...");
+					
+				}else {
+					
+					System.out.println("Line1 & Line2 are equal...");
 				
 	}
 
+}
 }
